@@ -1,0 +1,7 @@
+{
+    "name": "InputAPI",
+    "version_number": "0.0.1",
+    "website_url": "https://github.com/VisualError/CW_InputAPI/",
+    "description": "Simple Modded Inputs API for Content Warning!",
+    "dependencies": []
+}
