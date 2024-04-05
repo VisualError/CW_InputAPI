@@ -2,6 +2,7 @@
 
 namespace InputAPI
 {
+    // TODO: Make this event-based.
     public abstract class BaseCWInput : KeyCodeSetting
     {
         public void HandleKeys(Player player)

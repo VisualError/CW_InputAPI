@@ -2,6 +2,7 @@
 
 namespace InputAPI.Patches
 {
+    // TODO: Make this event-based.
     [HarmonyPatch(typeof(Player.PlayerInput))]
     internal class PlayerInputPatch
     {
@@ -9,7 +10,7 @@ namespace InputAPI.Patches
         [HarmonyPostfix]
         private static void SampeInput(Player player)
         {
-            foreach(var moddedInputs in Plugin._inputs)
+            foreach(var moddedInputs in Plugin._inputs) //u gly.
             {
                 moddedInputs.HandleKeys(player);
             }
