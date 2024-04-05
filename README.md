@@ -1,5 +1,8 @@
 # CW_InputAPI
- 
+
+## Requirements:
+- BepInEx LTS (5.4.22)
+
 ## For Developers:
 
 Extend CWBaseInput to create new inputs. example: `Inputs/ExampleInput.cs`
