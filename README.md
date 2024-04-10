@@ -5,7 +5,7 @@
 
 ## For Developers:
 
-Extend CWBaseInput to create new inputs. example: `Inputs/ExampleInput.cs`
+Extend BaseCWInput to create new inputs. example: `Inputs/ExampleInput.cs`
 ```csharp
 using InputAPI;
 using UnityEngine;
